@@ -1,0 +1,21 @@
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <title>Shmoogle</title>
+    </head>
+    <body>
+        <input type="text" class="query" id="sss">
+        <button class="searchBtn"  onclick="th()">Search</button>
+        
+    </body>
+</html>
+
+<script>
+    function th(){
+    s = document.getElementById("sss").value;
+       // w = 'https://www.google.com/search?q='
+      //  q = w + s
+        var newUrl = [s];
+        window.location.replace(s);
+}
+</script>
